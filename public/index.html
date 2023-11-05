@@ -20,7 +20,7 @@
 
         <!-- Navbar      -->
 
-        <div class="grid grid-cols-3 px-16">
+        <div class="grid grid-cols-3 px-16  w-screen h-20 border-b-[1px] items-center  fixed top-0 bg-white">
 
             <img class="h-16 w-28" src="./assets/Airbnb_logo.png" alt="">
 
@@ -40,7 +40,8 @@
                 <button class="text-sm font-medium">Airbnb your home</button>
                 <span class="material-symbols-outlined">language</span>
 
-                <div class="flex justify-evenly items-center gap-2 rounded-full border shadow-md h-10 w-20 py-1.25 pr-1.25 pl-3 ">
+                <div
+                    class="flex justify-evenly items-center gap-2 rounded-full border shadow-md h-10 w-20 py-1.25 pr-1.25 pl-2 ">
                     <i class="fa-solid fa-bars"></i>
                     <button class="bg-black text-white rounded-full text-center w-7 h-7 text-[10px]">EH</button>
 
@@ -53,23 +54,492 @@
 
         <!-- Category bar  -->
 
+        <div class="flex items-center h-24 space-x-5 fixed top-20 bg-white w-screen">
+            <div class="flex items-center justify-center space-x-8">
+                <!-- for the individual category  -->
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 pl-16">
+
+                    <img class="h-6 w-6" src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"
+                        alt="">
+                    <p class="text-xs font-normal">Amazing pools </p>
+                </div>
+
+
+
+
+
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 ">
+
+                    <img class="h-6 w-6" src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg"
+                        alt="">
+                    <p class="text-xs font-normal">Farms </p>
+                </div>
+
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 ">
+
+                    <img class="h-6 w-6" src="https://a0.muscache.com/pictures/78ba8486-6ba6-4a43-a56d-f556189193da.jpg"
+                        alt="">
+                    <p class="text-xs font-normal">Mansions </p>
+                </div>
+
+
+
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 ">
+
+                    <img class="h-6 w-6" src="https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg"
+                        alt="">
+                    <p class="text-xs font-normal">Castles</p>
+                </div>
+
+
+
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 ">
+
+                    <img class="h-6 w-6" src="https://a0.muscache.com/pictures/9a2ca4df-ee90-4063-b15d-0de7e4ce210a.jpg"
+                        alt="">
+                    <p class="text-xs font-normal">Off-the-grid</p>
+                </div>
+
+
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 ">
+
+                    <img class="h-6 w-6" src="https://a0.muscache.com/pictures/31c1d523-cc46-45b3-957a-da76c30c85f9.jpg"
+                        alt="">
+                    <p class="text-xs font-normal">Camper Vans</p>
+                </div>
+
+
+
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 ">
+
+                    <img class="h-6 w-6" src="https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg"
+                        alt="">
+                    <p class="text-xs font-normal">Islands</p>
+                </div>
+
+
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 ">
+
+                    <img class="h-6 w-6" src="https://a0.muscache.com/pictures/c0a24c04-ce1f-490c-833f-987613930eca.jpg"
+                        alt="">
+                    <p class="text-xs font-normal">National Parks</p>
+                </div>
+
+
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 ">
+
+                    <img class="h-6 w-6" src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"
+                        alt="">
+                    <p class="text-xs font-normal">OMG!</p>
+                </div>
+
+
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 ">
+
+                    <img class="h-6 w-6" src="https://a0.muscache.com/pictures/8b44f770-7156-4c7b-b4d3-d92549c8652f.jpg"
+                        alt="">
+                    <p class="text-xs font-normal">Arctic</p>
+                </div>
+
+
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 ">
+
+                    <img class="h-6 w-6" src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg"
+                        alt="">
+                    <p class="text-xs font-normal">Amazing Views</p>
+                </div>
+
+
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 ">
+
+                    <img class="h-6 w-6" src="https://a0.muscache.com/pictures/50861fca-582c-4bcc-89d3-857fb7ca6528.jpg"
+                        alt="">
+                    <p class="text-xs font-normal">Design</p>
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+            <i class=" pl-4 fa-solid fa-circle-arrow-right"></i>
+
+            <!-- for filter -->
+            <div class="flex justify-around items-center rounded-xl shadow-md h-12 w-24 border ">
+                <span class="material-symbols-outlined pl-2">
+                    sync_alt
+                </span>
+
+                <p class="text-xs font-medium p-2">Filters</p>
+            </div>
+
+        </div>
+
+        </div>
+
 
         <!-- price bar  -->
 
+        <div class="flex justify-center mt-48">
+            <div class="flex justify-between border rounded-xl  w-[600px] h-16  items-center p-4">
+
+                <div class="flex justify-start">
+                    <p class="border-r-2 border-gray-100 pr-4 text-base font-medium">Display Price </p>
+                    <p class="pl-2 text-gray-400 text-base">Include all fees,before taxes</p>
+
+                </div>
+
+                <i class=' text-2xl  fa fa-toggle-off'></i>
+
+
+            </div>
+
+
+        </div>
+
     </header>
 
-    <!-- main content  -->
 
-    <main>
+
+    <main class="mt-14 mx-10">
 
         <!-- hotel info  -->
+
+        <div class="grid grid-cols-3   gap-20 ">
+
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg?im_w=720" alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/7cc3c855-f90e-4d0f-9b13-3b5c2a3c4bad.jpg?im_w=320" alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/4f70b681-a792-4530-8c52-f2a8d262942d.jpg?im_w=720" alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+
+
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/4a5c629b-9c92-450e-8d8f-995875798838.jpg?im_w=320" alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/airflow/Hosting-826026275336075487/original/1095375d-f49a-4b60-b5a6-9a01f39c2bb7.jpg?im_w=320"
+                    alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/miso/Hosting-44970955/original/d289282f-31ce-41bd-9364-2cc8ab021b6d.jpeg?im_w=320"
+                    alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/miso/Hosting-824015985248619464/original/1d8aebc0-3865-48b6-a059-05c6adeba313.jpeg?im_w=320"
+                    alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/miso/Hosting-803541464366243564/original/b9b52902-c95d-4960-a727-d2e05323d86b.jpeg?im_w=320"
+                    alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/miso/Hosting-826025597172937112/original/a885efb1-1414-4b73-bec3-8dcf7b884d6e.jpeg?im_w=320"
+                    alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+
+
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/6d90bd2d-1bae-47cc-b831-b7561d766048.jpg?im_w=320" alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/miso/Hosting-736194760184993424/original/adfd6818-0614-437a-a032-2c9eff1cbd9e.jpeg?im_w=320"
+                    alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+
+
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/miso/Hosting-820954888871612167/original/f37e01a9-cb1a-446d-be7e-c1d62d1f1c23.jpeg?im_w=320"
+                    alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+
+
+
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/airflow/Hosting-826026275336075487/original/1095375d-f49a-4b60-b5a6-9a01f39c2bb7.jpg?im_w=320"
+                    alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/miso/Hosting-826726918494647682/original/e12d57b6-f6c9-43ca-83a8-cc8a7d4e7b93.jpeg?im_w=320"
+                    alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+            <div class="flex flex-col h-96 w-72 ">
+
+                <img class="w-72 h-64  rounded-xl"
+                    src="https://a0.muscache.com/im/pictures/airflow/Hosting-826026275336075487/original/1095375d-f49a-4b60-b5a6-9a01f39c2bb7.jpg?im_w=320"
+                    alt="">
+                <div class="flex justify-between mt-2">
+                    <p class="text-sm font-medium">Abiansemal, Bali, Indonesia</p>
+                    <div class="flex"> <i class="fa-solid fa-star"></i>
+                        <p class="text-sm font-light">5.0</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-400">62,290 kilometers away</p>
+                <p class="text-sm text-gray-400">23May-28May</p>
+                <p class="text-sm font-medium mt-2">Rs/-43,34 night</p>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
 
     </main>
 
     <!-- footer  -->
 
-    <footer>
+    <footer class="flex justify-between h-12 items-center px-10 fixed bottom-0 w-screen bg-white">
 
+
+        <div class="flex text-sm font-base space-x-2">
+            <p>© 2023 Airbnb, Inc.p</p>
+
+            <p> ·</p>
+            <p> Privacy</p>
+            <p> ·</p>
+            <p> Terms</p>
+            <p> ·</p>
+            <p> Sitemap</p>
+            <p> ·</p>
+            <p>Company details</p>
+        </div>
+
+        <div class="flex space-x-4 text-sm font-medium">
+            <span class="material-symbols-outlined">language</span>
+            <p>English (IN)</p>
+            <p>INR</p>
+            <p>Support & resources</p>
+        </div>
 
     </footer>
 
